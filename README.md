@@ -1,2 +1,2 @@
 # learn-deep-learning-with-python
-For personal user learning purpose
+For personal use learning purpose
