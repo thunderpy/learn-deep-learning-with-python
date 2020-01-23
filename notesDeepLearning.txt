@@ -145,3 +145,34 @@ set accuracy. This gap between training accuracy and test accuracy is an example
 overfitting: the fact that machine-learning models tend to perform worse on new data
 than on their training data. Overfitting is a central topic in chapter 3.
 
+#
+Data stored in multidimensional Numpy arrays, also called tensors.
+At its core, a tensor is a container for data—almost always numerical data. So, it’s a
+container for numbers. You may be already familiar with matrices, which are 2D ten-
+sors: tensors are a generalization of matrices to an arbitrary number of dimensions
+(note that in the context of tensors, a dimension is often called an axis).
+
+#
+A tensor that contains only one number is called a scalar (or scalar tensor, or 0-dimensional
+tensor, or 0D tensor).
+In Numpy, a float32 or float64 number is a scalar tensor (or scalar
+array).
+
+>>> import numpy as np
+>>> x = np.array(12)
+>>> x
+array(12)
+>>> x.ndim
+0
+
+#
+An array of numbers is called a vector, or 1D tensor. A 1D tensor is said to have exactly
+one axis. Following is a Numpy vector:
+>>> x = np.array([12, 3, 6, 14])
+>>> x
+array([12, 3, 6, 14])
+>>> x.ndim
+1
+
+#
+
