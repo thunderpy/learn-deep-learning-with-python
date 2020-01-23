@@ -145,4 +145,3 @@ set accuracy. This gap between training accuracy and test accuracy is an example
 overfitting: the fact that machine-learning models tend to perform worse on new data
 than on their training data. Overfitting is a central topic in chapter 3.
 
-
