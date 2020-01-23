@@ -1,6 +1,5 @@
 # Loading the MNIST dataset in Keras
 
-
 """
 from keras.datasets import mnist
 
