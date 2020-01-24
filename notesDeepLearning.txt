@@ -175,4 +175,21 @@ array([12, 3, 6, 14])
 1
 
 #
-
+The data you’ll manipulate will almost always fall into one of the following
+categories:
+	Vector data—2D tensors of shape (samples, features):-
+	This is the most common case. In such a dataset, each single data point can be encoded
+	as a vector, and thus a batch of data will be encoded as a 2D tensor (that is, an array of
+	vectors), where the first axis is the samples axis and the second axis is the features axis.
+	
+	Timeseries data or sequence data—3D tensors of shape (samples, timesteps,
+	features):-
+	
+	
+	Images—4D tensors of shape (samples, height, width, channels) or (samples,
+	channels, height, width)
+	
+	Video—5D tensors of shape (samples, frames, height, width, channels) or
+	(samples, frames, channels, height, width)
+	
+#
