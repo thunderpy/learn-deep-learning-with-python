@@ -26,3 +26,17 @@ for i in range(50):
 # print raw data
 for i in train_samples:
     print(i)
+
+for i in train_lables:
+    print(i)
+
+# convert data to numpy array for keras to work with
+train_lables = np.array(train_lables)
+train_samples = np.array(train_samples)
+
+scaler = MinMaxScaler(feature_range=(0, 1))
+scaled_train_samples = scaler.fit_transform((train_samples).reshape(-1, 1))
+
+# print scaled data
+for i in scaled_train_samples:
+    print(i)
