@@ -1,0 +1,61 @@
+# https://education.cxotv.news/2019/04/02/difference-between-machine-learning-deep-learning-and-artificial-intelligence/?gclid=EAIaIQobChMI5JTiutyM5wIVj4uPCh1kSgUfEAAYASAAEgLFvPD_BwE
+
+# https://www.quora.com/How-do-I-learn-AI-using-Python
+
+**********
+To sum up: Artificial Intelligence is human intelligence displayed by machines, 
+Machine Learning is an approach to achieving artificial intelligence, 
+and Deep Learning is a technique to implement machine learning.
+**********
+
+######
+But if you really want to learn AI. You must learn other subjects like
+
+    Linear algebra
+    Probability
+    Statistics
+    Neuroscience
+    Calculus
+
+AI is a broad field. You can choose a specific field to learn like
+
+    Natural Language Processing
+    Machine Learning
+    Super Intelligence
+    Video Game AI
+    Artificial General Intelligence
+
+######
+
+####
+Start by learning python. Learn how to code in python and the different packages that are specifically used for AI and Machine Learning.
+
+To name a few packages for AI:
+
+    Tensorflow
+    Scikit-Learn
+    NumPy
+    Theano
+    Keras
+    NLTK
+
+After this, you can study the concepts of AI, which mainly include:
+
+    Machine Learning
+    Deep Learning
+    Natural Language Processing
+
+All of this content is covered in the below video, along with a number of practical implementations in Python.
+https://youtu.be/JMUxmLyrhSk
+
+####
+
+####
+The most important one is “Work on projects” After you have gained enough, start contributing to Open Source Projects. 
+Here are 6 Cool AI / Ml projects with Python.
+https://sites.google.com/view/learn-python-data-science/home
+####
+
+# keras vs tensorflow vs pytorch
+https://www.gangboard.com/blog/keras-vs-tensorflow-vs-pytorch/
+
